@@ -3,7 +3,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
-  const response = fetch(`.netlify/functions/script`);
+  const response = fetch(`/.netlify/functions/script`);
   console.log(response);
 
   return (
